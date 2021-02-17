@@ -74,6 +74,7 @@ The user account used to execute DCPROMO hasn't been granted the "Enable compute
     ```console
     gpresult /h result.html
     ```
+6. In AD, check if the computer object of the machine being demoted has the "Protect Object From Accidental Deletion" property set.
 
 ## More information
 
